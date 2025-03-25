@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de Sostenibilidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F5F5DC; /* Beige claro */
+        }
+        .navbar, .btn-primary {
+            background-color: #2E8B57 !important; /* Verde */
+        }
+        .navbar .nav-link, .navbar-brand {
+            color: white !important;
+        }
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Sostenibilidad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menú</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                            <li><a class="dropdown-item" href="sostenibilidad.html">Sostenibilidad</a></li>
+                            <li><a class="dropdown-item" href="agenda2030.html">Agenda 2030 y ODS</a></li>
+                            <li><a class="dropdown-item" href="retos.html">Retos Ambientales y Sociales</a></li>
+                            <li><a class="dropdown-item" href="impacto.html">Impacto Medioambiental</a></li>
+                            <li><a class="dropdown-item" href="ods_empresas.html">ODS en Empresas</a></li>
+                            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="sostenibilidad.html"><img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Viñeta 1"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="agenda2030.html"><img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Viñeta 2"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="retos.html"><img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Viñeta 3"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="impacto.html"><img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Viñeta 4"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="ods_empresas.html"><img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Viñeta 5"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="contacto.html"><img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Viñeta 6"></a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
